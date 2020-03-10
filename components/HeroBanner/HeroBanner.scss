@@ -1,0 +1,45 @@
+﻿section.hero {
+  height: 500px;
+  position: relative;
+
+  &.dark {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    color: #fff;
+  }
+
+  .content {
+    width: 90%;
+    height: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+    flex-grow: inherit;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  .quote {
+    font-family: 'Niconne', cursive;
+    font-size: 2rem;
+  }
+  h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-size: 2.75rem;
+    line-height: 1;
+  }
+  .hero-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+}

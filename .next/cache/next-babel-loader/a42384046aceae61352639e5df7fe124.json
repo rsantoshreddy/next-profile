@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport Link from 'next/link';\nimport Layout from '../components/Layout/Layout';\nexport default (function (props) {\n  return __jsx(Layout, null, __jsx(\"h1\", null, \"About page\"), __jsx(Link, {\n    href: \"/\"\n  }, \"Home page\"));\n});","map":null,"metadata":{},"sourceType":"module"}

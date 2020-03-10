@@ -1,0 +1,13 @@
+﻿header {
+  padding: 1rem 0;
+  .fa-address-card-o {
+    font-size: 2em;
+    float: left;
+    margin: 0 1rem 0 0;
+  }
+  .contact {
+    &:after {
+      clear: both;
+    }
+  }
+}

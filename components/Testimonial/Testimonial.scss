@@ -1,0 +1,22 @@
+﻿section.testimonial {
+  text-align: center;
+  background-color: #f5f7fa;
+  padding: 30px 0;
+  margin-bottom: 0;
+  img {
+    float: left;
+  }
+  p {
+    margin: 0 0 0 197px;
+    text-align: left;
+  }
+  .content {
+    width: 57%;
+    margin: 0 auto;
+    &::after {
+      content: ' ';
+      clear: both;
+      display: block;
+    }
+  }
+}
